@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!--link rel="stylesheet" href="css/style.css"-->
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='//fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Theme CSS -->
+  <style type="text/css">
+  @media (min-width: 768px){
+    body {
+        background: url(img/mountain.jpg) no-repeat center center fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .intro-text{
+        height: 100px;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .button{
+      padding:20px 40px;
+    }
+
+    .intro-lead-in {
+        font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-style:italic;
+        font-size:40px;
+        line-height:40px;
+    }
+    .intro-heading {
+        font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-transform:uppercase;
+        font-weight:700;
+        font-size:50px;
+    }
+  }
+  @media (max-width: 768px) {
+    body {
+        background: url(img/mountain.jpg) no-repeat center center fixed;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .intro-lead-in {
+        font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-style:italic;
+        font-size:4vw;
+    }
+    .intro-heading {
+        font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-transform:uppercase;
+        font-weight:700;
+        font-size:5vw;
+    }
+    .intro-text{
+        height: 100px;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .button{
+      font-size: 1.6vw;
+      padding:2vw 4vw;
+
+    }
+  }
+
+  .button{
+    border: none;
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+    font-weight:700;
+    background-color:#fed136;
+    border-color:#fed136;
+    border-radius:3px;
+  }
+
+  h1 {
+      color: blue;
+  }
+  p {
+      color: red;
+  }
+
+
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+        <div class="intro-text text-vertical-center">
+            <div class="intro-lead-in">Welcome To Book Guide!</div>
+            <div class="intro-heading">It's Nice To Meet You</div>
+            <a href="sign_in.php" class="button" id="explore-button">Explore</a>
+        </div>
+    </div>
+  </header>
+
+  <!-- Plugin JavaScript -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="//code.angularjs.org/1.6.0/angular.min.js"></script>
+  <script src="//code.angularjs.org/1.6.0/angular-route.min.js"></script>
+  <script src="//code.angularjs.org/1.6.0/angular-cookies.min.js"></script>
+
+</body>
+</html>

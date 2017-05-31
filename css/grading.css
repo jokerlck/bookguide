@@ -1,0 +1,11 @@
+.star {
+    display: inline;
+}
+.active {
+    color: #FFDF38;
+}
+
+.rating-container
+{
+  float:left;
+}

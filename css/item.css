@@ -1,0 +1,36 @@
+.form-group{
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#faq_list
+{
+  list-style-type: none;
+  padding: 0;
+}
+.fn-area
+{
+  float: right;
+}
+.textarea-container {
+  position: relative;
+  /* you should change this*/
+  width: 100%;
+}
+
+textarea, .textarea-size {
+  box-sizing: border-box;
+  padding: 1em 2em;
+  overflow: hidden;
+  width: 100%;
+}
+
+.textarea-size {
+  visibility: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
